@@ -304,17 +304,17 @@
               <div class="--form-control" style="padding: 4rem 0rem 0rem 0rem" >
                
                 <label for="" style="font-weight: 600!important;">Name</label>
-                <input type="text" name="Name" class="form-control-lg form-control --mb">
+                <input type="text" name="Name" required class="form-control-lg form-control --mb">
                 <label for="" style="font-weight: 600!important;">Email</label>
-                <input type="text" name="Email" class="form-control-lg form-control --mb">
+                <input type="text" name="Email" required class="form-control-lg form-control --mb">
                 <label for="" style="font-weight: 600!important;">Phone Number</label>
-                <input type="number" name="Phone Number" class="form-control-lg form-control ">
+                <input type="number" required name="Phone Number" class="form-control-lg form-control ">
                 
               </div>
               <div style="padding: 0rem 0rem 0rem 0rem" class="" >
                 <div>
                   <label for="" class="--my" style="font-weight: 600!important;">What session are you booking with us</label>
-                  <select class="form-select form-control inp" name="Session"  aria-label="Default select example">
+                  <select class="form-select form-control inp" name="Session" required  aria-label="Default select example">
                       <option selected>Select your Session</option>
                       <option value="Wedding">Wedding </option>
                       <option value="Family Session">Family Session</option>
@@ -328,7 +328,7 @@
               <div style="padding: 0rem 0rem 0rem 0rem" class="--mt2" >
                 <div>
                   <label for="" class="--my" style="font-weight: 600!important;">How did you hear about us</label>
-                  <select class="form-select form-control inp" name="How did you hear about us"  aria-label="Default select example">
+                  <select class="form-select form-control inp" required name="How did you hear about us"  aria-label="Default select example">
                       <option selected>select</option>
                       <option value="Facebook">Facebook</option>
                       <option value="Google Search">Google Search</option>
@@ -339,15 +339,15 @@
           
               <div  class="--mt2">
               <label for="">Date</label>
-              <input type="date" value="date" name="Date" class="form-control-lg form-control --mb">
+              <input type="date" value="date" required name="Date" class="form-control-lg form-control --mb">
             </div>
 
               <div  class="--mt2">
               <label for="">Send us a message</label>
-              <textarea name="Message" id=""  class="form-control" cols="30" rows="10" placeholder="your text here..."></textarea>
+              <textarea name="Message" id="" required  class="form-control" cols="30" rows="10" placeholder="your text here..."></textarea>
             </div>
-            <h6 id="error" class="--mt2 w3-text-green"></h6>
-             <button class="w3-btn w3-blue --mt2" id="btn">Submit</button>
+            <h6 id="error" class="--mt w3-text-green"></h6>
+             <button class="w3-btn w3-blue --mt" id="btn">Submit</button>
          
             </div>
             </form>
