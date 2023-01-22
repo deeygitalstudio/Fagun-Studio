@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Videos/Videoder/tutorial files/Web Dev Project/Akinbohun Ifedayo"
+		},
+		{
+			"path": "../../Videos/Videoder/Javascript projects/Count Up"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Fagun Studio"
+	}
+}

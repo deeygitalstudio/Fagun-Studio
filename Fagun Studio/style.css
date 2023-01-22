@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    width: 100px;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 14px !important;
+    margin-right: 2rem !important;
+}
+
+ .nav-link{
+   
+    margin-left: 2rem !important;
+}
+
+.nav-link:hover{
+  color: #CA8B79;
+  
+}
+
+.bgimage {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+nav ul li a:hover::after{
+  content: '';
+  height: 6px;
+  width: 6px;
+  position: absolute;
+  margin-left: 7px;
+  border-radius: 50%;
+  background: #000;
+  
+
+}
+
+.navbar-toggler{
+  background-color: #fff !important;
+  outline: none !important;
+}
+
+.navbar-toggler-icon {
+  font-size: 2rem;
+  color: #CA8B79 !important;
+}
+
+
+.--section{
+    width: 100%;
+    height: 100vh !important;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title h1{
+    font-size: 8rem !important;
+    color: #fff !important;
+    font-weight: 600;
+    text-align: center;
+}
+
+.title h6{
+    font-size: 2rem !important;
+    color: #fff !important;
+    text-align: center;
+}
+.title h3{
+    font-size: 2rem !important;
+    color: #fff !important;
+    text-align: center;
+    margin-top: 3rem;
+    font-weight: 400;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    }
+
+    .cursor {
+        display: inline-block;
+        background-color: #ccc;
+        width: 2px;
+        margin-left: 2px;
+        animation: blink 1s infinite;
+      }
+      
+      .cursor.typing {
+        animation: none;
+      }
+      
+      @keyframes blink {
+        0% {
+          background: #ccc;
+        }
+        49% {
+          background: #ccc;
+        }
+        50% {
+          background: transparent;
+        }
+        99% {
+          background: transparent;
+        }
+        100% {
+          background: #ccc;
+        }
+      }
+
+    .bio{
+ 
+    }
+
+    .bio p{
+      font-size: 14px!important;
+      line-height: 4rem;
+      margin-top: 2rem;
+      letter-spacing: 1px;
+      padding: 0rem 4rem!important;
+   
+    }
+
+    .ttt{
+      background-color: #3a85ff !important;
+      color: #fff !important;
+      padding: 1rem !important;
+      font-size: 1rem;
+    }
+
+
+    .num h2{
+      color: rgb(37, 37, 37) !important;
+      font-size: 2rem;
+    }
+
+
+    .about {
+      position: relative;
+    }
+    
+    
+.about img{
+  z-index: -5;
+}
+
+    .about::before {
+      content: "";
+      position: absolute;
+      top: -1.5rem;
+      left: -1.7rem;
+      width: 100%;
+      height: 100%;
+      outline: 0.5rem solid #3a85ff;
+      z-index: -1;
+      transition: all 1s ease-in-out;
+    }
+
+    .about:hover:before {
+      top: 0;
+      left: 0;
+    }
+
+    .w3-quarter{
+      margin-right: 3rem !important;
+    }
+
+    
+
+    .w3-row{
+    padding-top: 4rem !important;
+    }
+
+    .slides h4{
+       font-size: 1.5rem !important;
+       text-align: center;
+       margin-top: 1rem;
+       font-weight: 400!important;
+    }
+
+    .slides img{
+       cursor: pointer;
+    }
+
+    .container i,
+ .counter {
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+  
+}
+
+.container span {
+  font-size: 1.3rem;
+  color: rgb(255, 255, 255);
+}
+
+.reviews {
+  display: none;
+}
+
+
+.reviews p{
+  font-size: 1.2rem!important;
+}
+
+
+#more{
+  display: none;
+  }
+  
+ #dots{
+  
+  color: #000!important;
+  }
+
+  .form-check label{
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  
+  label{
+    font-weight: 400 !important;
+    font-size: 1rem ! important;
+  }
+
+
+  .fme{
+    font-size: 1.5rem!important;
+    margin-bottom: 2rem;
+    color: #fff !important;
+    }
+
+
+    .fa{
+    color: #fff !important;
+    font-size: 1.5rem !important;
+    margin: 1rem 10px;
+    
+    }
+    
+    
+    footer{
+    width: 100%;
+    height: 300px;
+    padding: 3rem 0;
+    }
+    
+  
+
+    footer h3 {
+    font-size: 1rem!important;
+    color: #fff !important;
+    }
+
+.btns{
+  padding: 0rem 4rem!important;
+}
+
+
+    @media screen and (max-width: 600px) {
+      .title h1{
+        font-size: 2rem !important;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    .title h6{
+        font-size: 2rem !important;
+        color: #fff !important;
+        text-align: center;
+    }
+    .title h3{
+        font-size: 1.5rem !important;
+        color: #fff !important;
+        text-align: center;
+        margin-top: 2rem;
+        font-weight: 400;
+    }
+
+    .title span{
+      font-size: 2rem!important;
+    }
+
+    .bio p{
+      font-size: 14px!important;
+      line-height: 4rem;
+      margin-top: 2rem;
+      letter-spacing: 1px;
+      padding: 0rem 1rem!important;
+   
+    }
+
+    .btns{
+      padding: 0rem 1rem!important;
+    }
+
+    .container i,
+    .counter {
+     font-size: 1rem;
+     color: rgb(255, 255, 255);
+     
+   }
+
+   .eee{
+    margin: 20px 0 !important;
+   }
+
+   .container span {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+  }
+
+  .---section{
+    padding: 3rem 0!important;
+    margin: 2rem 0!important;
+  }
+
+  .imgcon{
+    padding: 0 4rem !important;
+  }
+
+  .ferm{
+      padding: 0 2rem!important;
+  }
+
+  .navbar-nav{
+    margin-top: 15px !important;;
+  }
+
+    }
+
+
+
+
+
+    @media screen and (max-width: 768px) {
+      .title h1{
+        font-size: 4rem !important;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    .title h6{
+        font-size: 1.5rem !important;
+        color: #fff !important;
+        text-align: center;
+    }
+    .title h3{
+        font-size: 1.5rem !important;
+        color: #fff !important;
+        text-align: center;
+        margin-top: 2rem;
+        font-weight: 400;
+    }
+
+    .title span{
+      font-size: 4rem!important;
+    }
+
+    .bio p{
+      font-size: 14px!important;
+      line-height: 3rem;
+      margin-top: 2rem;
+      letter-spacing: 1px;
+      padding: 0rem 1rem!important;
+   
+    }
+
+    .btns{
+      padding: 0rem 1rem!important;
+    }
+
+    .container i,
+    .counter {
+     font-size: 2rem !important;
+     color: rgb(255, 255, 255);
+   }
+
+   .counter :target {
+    font-size: 1.5rem !important;
+    color: rgb(255, 255, 255);
+  }
+
+   .eee{
+    margin: 20px 0;
+   }
+   .container span {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+  }
+
+  .reviews i{
+    font-size: 1.5rem !important;
+  }
+
+  .---section{
+    padding: 3rem 0 !important;
+  }
+
+  .navbar-nav{
+    margin-top: 15px !important;;
+  }
+    }
