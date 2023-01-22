@@ -11,12 +11,12 @@
 .nav-link {
     color: #fff !important;
     font-size: 14px !important;
-    margin-right: 2rem !important;
+    margin: 0 1rem  !important;
 }
 
  .nav-link{
    
-    margin-left: 2rem !important;
+    margin: 0 1rem !important;
 }
 
 .nav-link:hover{
